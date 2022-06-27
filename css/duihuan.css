@@ -1,0 +1,86 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	height: 100%;
+	background:url(../img/bj.png);
+	background-size: 100%;
+}
+.top{
+	padding:0 0.1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.top_left{
+	width: 100%;
+}
+.top_left img{
+	width: 100%;
+}
+.top_right{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.wallet{
+	width: 80%;
+	font-size: 0.28rem;
+	color: #F2CE45;
+	text-align: center;
+	border-radius: 0.1rem;
+	background-color: rgb(252, 244, 218);
+	padding: 0.05rem;
+}
+.center{
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid #C4C4C4;
+	border-radius: 0.5rem;
+	text-align: center;
+	margin-top: 1rem;
+	padding: 0.2rem;
+	box-shadow: 1px 1px 10px 1px #888888;
+}
+.box{
+	width: 92%;
+	border: 1px solid #C4C4C4;
+	border-radius: 0.3rem;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	padding: 0.2rem;
+}
+.box_left{
+	width: 100%;
+	font-size: 0.32rem;
+	text-align: left;
+}
+.box_right{
+	width: 100%;
+	background-color: #F0B90B;
+	color: #fff;
+	font-size: 0.32rem;
+	padding: 0.1rem;
+	border-radius: 0.32rem;
+}
+input{
+	margin: .2rem 0;
+	width: 100%;
+	border: none;
+	color: #000;
+	outline:medium;
+	height: 0.7rem;
+	font-size: 0.36rem;
+}
+.btn{
+	width: 90%;
+	margin: 0.4rem auto;
+	color: #F0B90B;
+	background-color: #FCF4DA;
+	font-size: 0.5rem;
+	padding: 0.1rem;
+	border-radius: 0.32rem;
+}
