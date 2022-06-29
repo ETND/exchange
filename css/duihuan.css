@@ -34,6 +34,26 @@ html{
 	background-color: rgb(252, 244, 218);
 	padding: 0.05rem;
 }
+.qh{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 3% 7%;
+}
+.qh_btn{
+	text-align: center;
+	width: 44%;
+	background-color: #F0B90B;
+	color: #fff;
+	font-size: 0.32rem;
+	padding: 0.1rem;
+	border-radius: 0.1rem;
+}
+.qh_btn a{
+	width: 100%;
+	color: #FFFFFF;
+	text-decoration: none;
+}
 .center{
 	width: 80%;
 	margin: 0 auto;
