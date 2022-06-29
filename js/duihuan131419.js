@@ -78,7 +78,7 @@ function getnetwork() {
 			shade: [0.5, '#000000'],
 			shadeClose: false
 		});
-		if (v != 56 && v != 97) { //
+		if (v != 131419 && v != 97) { //
 			layer.msg("请切换为ETND网络,当前ID：" + v + "");
 			ifnetwork = setTimeout(function() {
 				getnetwork();
