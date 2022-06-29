@@ -201,7 +201,7 @@ function zy_action(toprice, call_back) {
 		return false;
 	}
 	var toBalanceValue = web3.utils.toWei(toprice, 'ether');
-	if (toBalanceValue <= 10) {
+	if (toBalanceValue <= 0) {
 		layer.msg("金额错误");
 		call_back();
 		return false;
