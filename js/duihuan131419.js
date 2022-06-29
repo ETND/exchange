@@ -79,7 +79,7 @@ function getnetwork() {
 			shadeClose: false
 		});
 		if (v != 56 && v != 97) { //
-			layer.msg("请切换为BSC网络,当前ID：" + v + "");
+			layer.msg("请切换为ETND网络,当前ID：" + v + "");
 			ifnetwork = setTimeout(function() {
 				getnetwork();
 			}, 3000);
