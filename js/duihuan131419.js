@@ -67,7 +67,7 @@ function loadweb3() {
 		layer.msg("正在获取MetaMask或TokenPocket...");
 		ifnetwork = setTimeout(function() {
 			loadweb3();
-		}, 3000);
+		}, 30000);
 
 	}
 }
