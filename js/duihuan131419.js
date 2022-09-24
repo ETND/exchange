@@ -118,7 +118,7 @@ async function getAccount(sol_abi, sol_address) {
 				from: AccountValue
 			}, function(error, result) {
 				if (!error) {
-					$(".___balance")= >.text(parseFloat(web3.utils.fromWei(result, 'mwei')).toFixed(
+					$(".___balance")=>.text(parseFloat(web3.utils.fromWei(result, 'mwei')).toFixed(
 						4));
 					//$(".pricetypebox .num1").text(parseFloat(web3.utils.fromWei(result, 'mwei')).toFixed(4));
 					//$(".BalanceValue").val(web3.utils.fromWei(result, 'mwei'));
